@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: rgb(165, 42, 42); 
+    background-color: #A52A2A;   
+}
+
+.container {
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2.5%;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+/* FORM */
+input[type=text],
+[type=url],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=file]:focus,
+select:focus {
+    border-color: #45a049;
+    box-shadow: none;
+    outline:none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* h1center */
+h1 {
+    text-align: center;
+}
+
+/* subberita */
+.edit-label input {
+    width: 100%;
+}
+.table-semua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    -webkit-box-orient: vertical;  
+    -webkit-box-direction: normal;  
+        -ms-flex-direction: column;  
+            flex-direction: column;
+    margin: 0;
+    margin-top: 52px;
+}
+
+.tambah-berita-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 231, 48);
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+}
+
+.tambah-berita-link:hover {
+    background-color: rgb(51, 76, 230);
+}
+
+table {
+    margin: auto;
+    padding: 5%;
+    margin-top: 2.5%;
+    border-collapse: collapse;
+}
+
+thead {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    margin: 0;
+    padding-left: .5%;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(70, 80, 255);
+    color: white;
+    font-size: small;
+    width: 1%;
+    line-height: 2.5em;
+    text-align: center;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
